@@ -1,0 +1,321 @@
+/* ========== General Styles ========== */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f5f5f5;
+    color: #1E2A38;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== Sidebar ========== */
+.main-nav {
+    width: 260px;
+    height: 100vh;
+    background-color: #1E2A38;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    overflow-y: auto;
+    transition: width 0.3s;
+}
+
+.logo-box {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.logo-box img {
+    width: 150px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 8px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #D4AF37;
+    color: #1E2A38;
+}
+
+.nav-icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+/* Sub-menu */
+.sub-navbar-nav {
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.sub-nav-item .sub-nav-link {
+    display: block;
+    color: #D4AF37;
+    padding: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.sub-nav-item .sub-nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* ========== Topbar ========== */
+.topbar {
+    height: 60px;
+    background-color: #1E2A38;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 260px;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.topbar .topbar-button {
+    background: none;
+    border: none;
+    color: #D4AF37;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.topbar .topbar-button:hover {
+    color: white;
+}
+
+/* ========== Main Content ========== */
+.main-content {
+    margin-left: 260px;
+    padding-top: 80px;
+}
+
+/* ========== Cards ========== */
+.card {
+    background-color: white;
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+    color: #1E2A38;
+    font-weight: bold;
+}
+
+.card h3 {
+    color: #D4AF37;
+    font-size: 28px;
+}
+
+/* ========== Footer ========== */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1E2A38;
+    color: white;
+    font-size: 14px;
+}
+
+/* ========== Buttons ========== */
+.btn-primary {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color: #1E2A38;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #B58929;
+    border-color: #B58929;
+    color: white;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 992px) {
+    .main-nav {
+        width: 80px;
+    }
+
+    .main-content {
+        margin-left: 80px;
+    }
+
+    .topbar {
+        left: 80px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+}
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+}
+
+/* Sidebar */
+.main-nav {
+    background-color: #162236;  /* Dark Navy Blue */
+    width: 250px;
+    height: 100vh;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+.main-nav .logo-box {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-nav .navbar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav .nav-item {
+    padding: 10px 20px;
+}
+
+.main-nav .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-nav .nav-item a:hover {
+    background-color: #23395d;
+    border-radius: 5px;
+}
+
+.main-nav .nav-icon {
+    margin-right: 10px;
+}
+
+/* Page Content */
+.page-content {
+    margin-left: 250px;
+    padding: 40px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #162236;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Table Styling */
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h3 {
+    background: #162236;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background: #162236;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background: #f1f1f1;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #b8860b;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #8b6508;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+}
+
+/* Footer */
+.footer {
+    background-color: #162236;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
