@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\LawyerController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ProfileController;
@@ -34,6 +35,19 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 
 
 Route::resource('categories', CategoryController::class)->except(['create', 'show', 'edit']);
+Route::resource('lawyers', LawyerController::class);
 
+
+use App\Http\Controllers\ChatBotController;
+
+Route::post('/send-message', [ChatBotController::class, 'sendMessage']);
+Route::middleware(['auth'])->group(function () {
+    Route::post('/store-message', [ChatBotController::class, 'storeChat']);
+    Route::get('/previous-chats', [ChatBotController::class, 'getPreviousChats']);
+});
+
+Route::get('/chat', function () {
+    return view('chat');
+});
 
 require __DIR__.'/auth.php';
