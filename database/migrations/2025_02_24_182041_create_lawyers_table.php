@@ -16,8 +16,8 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->string('address');
             $table->string('city');
-            $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
             $table->enum('status', ['available', 'busy'])->default('available');
+
             $table->timestamps();
         });
     }
