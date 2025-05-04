@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
@@ -14,7 +15,7 @@
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/law-favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo.png')}}" type="image/x-icon">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
@@ -37,7 +38,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="color: #228B22;" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                         </svg>
-                        <span class="text-light ms-2">+1 (555) 123-4567</span>
+                        <span class="text-light ms-2">+92 (336) 7441190</span>
                     </span>
                 </div>
                 <div class="col-4 col-md-4 col-sm-4 col-12 d-flex justify-content-center justify-content-md-end">
@@ -45,7 +46,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" style="color: #228B22;" viewBox="0 0 24 24">
                             <path fill="currentColor" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
                         </svg>
-                        <span class="text-light ms-2">123 Legal Ave, Suite 500</span>
+                        <span class="text-light ms-2">Ahjzi</span>
                     </span>
                 </div>
             </div>
@@ -57,7 +58,7 @@
         <nav class="navbar navbar-expand-lg mt-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
-                    <img src="{{ asset('assets/images/law-logo.png') }}" style="height: 50px;" alt="Justice Law Partners">
+                    <img src="{{ asset('assets/images/casewise-logo.png') }}" style="height: 80px;" alt="Justice Law Partners">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
@@ -67,37 +68,9 @@
                         <li class="nav-item">
                             <a class="nav-link ps-3 text-black fw-bold" href="/">Home</a>
                         </li>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle text-black fw-bold" type="button" data-bs-toggle="dropdown">
-                                Practice Areas
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">Corporate Law</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Mergers & Acquisitions</a></li>
-                                        <li><a class="dropdown-item" href="#">Business Formation</a></li>
-                                        <li><a class="dropdown-item" href="#">Contracts</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">Family Law</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Divorce</a></li>
-                                        <li><a class="dropdown-item" href="#">Child Custody</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">Criminal Defense</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">DUI/DWI</a></li>
-                                        <li><a class="dropdown-item" href="#">Drug Charges</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Real Estate Law</a></li>
-                                <li><a class="dropdown-item" href="#">Estate Planning</a></li>
-                            </ul>
-                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3 text-black fw-bold" href="#">Practice Areas</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link ps-3 text-black fw-bold" href="#">About Us</a>
                         </li>
@@ -136,7 +109,7 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 col-12">
-                <img src="{{ asset('assets/images/law-hero.png')}}" class="img-fluid" alt="Legal Team">
+                <img src="{{ asset('assets/images/home-banner.png')}}" class="img-fluid" alt="Legal Team">
             </div>
         </div>
     </div>
@@ -146,7 +119,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-12">
-                    <img src="{{ asset('assets/images/law-about.jpg')}}" class="img-fluid rounded-4 shadow" alt="About Our Firm">
+                    <img src="{{ asset('assets/images/about-img.jpg')}}" class="img-fluid rounded-4 shadow" alt="About Our Firm">
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="ps-lg-5 mt-md-5 mt-sm-5">
@@ -187,100 +160,156 @@
 
     <!-- Practice Areas Section -->
     <section id="practice-areas" class="py-5 bg-light">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-8 mx-auto text-center">
-                    <span class="badge bg-primary mb-3">OUR SERVICES</span>
-                    <h2 class="mb-3">Legal Practice Areas</h2>
-                    <p class="lead">We provide comprehensive legal services across various specialties to meet all your legal needs.</p>
-                </div>
-            </div>
-            
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/corporate-law.png')}}" alt="Corporate Law" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Corporate Law</h4>
-                            <p class="text-muted">Business formation, contracts, mergers & acquisitions, and corporate compliance services.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/family-law.png')}}" alt="Family Law" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Family Law</h4>
-                            <p class="text-muted">Divorce, child custody, adoption, and other family-related legal matters.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/criminal-law.png')}}" alt="Criminal Defense" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Criminal Defense</h4>
-                            <p class="text-muted">Aggressive representation for DUI, drug charges, white collar crimes, and more.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/real-estate.png')}}" alt="Real Estate Law" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Real Estate Law</h4>
-                            <p class="text-muted">Property transactions, landlord-tenant disputes, zoning issues, and more.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/estate-planning.png')}}" alt="Estate Planning" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Estate Planning</h4>
-                            <p class="text-muted">Wills, trusts, probate, and asset protection strategies.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body p-4">
-                            <div class="mb-4">
-                                <img src="{{ asset('assets/images/icons/personal-injury.png')}}" alt="Personal Injury" class="img-fluid" style="height: 60px;">
-                            </div>
-                            <h4 class="mb-3">Personal Injury</h4>
-                            <p class="text-muted">Compensation for accidents, medical malpractice, and wrongful death cases.</p>
-                            <a href="#" class="text-primary text-decoration-none">Learn More →</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="text-center mt-5">
-                <a href="#" class="btn btn-primary btn-lg">View All Practice Areas</a>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-8 mx-auto text-center">
+                <span class="badge bg-primary mb-3">OUR SERVICES</span>
+                <h2 class="mb-3">Legal Practice Areas</h2>
+                <p class="lead">We provide comprehensive legal services across various specialties to meet all your legal needs.</p>
             </div>
         </div>
-    </section>
+        
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/criminal-img.jpg') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">Criminal Law</h4>
+                        <p>Business formation, contracts, mergers & acquisitions, and corporate compliance services.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/family-img.png') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">Family Law</h4>
+                        <p>Divorce, child custody, adoption, and other family-related legal matters.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/criminal-img.jpg') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">Criminal Defense</h4>
+                        <p>Aggressive representation for DUI, drug charges, white collar crimes, and more.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/land-img.webp') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">Land & Property Law</h4>
+                        <p>Property transactions, landlord-tenant disputes, zoning issues, and more.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/health-img.jpg') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">General Health Laws</h4>
+                        <p>Wills, trusts, probate, and asset protection strategies.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 border-0 shadow-sm" style="background-image: url('{{ asset('assets/images/labour-img.jpg') }}');">
+                    <div class="card-body p-4">
+                        <h4 class="mb-3">Labour Laws</h4>
+                        <p>Compensation for accidents, medical malpractice, and wrongful death cases.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="#" class="btn btn-primary btn-lg">View All Practice Areas</a>
+        </div>
+    </div>
+</section>
+
+<style>
+.card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0.25rem; /* Maintain Bootstrap card border radius */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+/* Remove default card body background and padding adjustments */
+.card-body {
+    background: transparent; /* Remove any background color */
+    color: #fff; /* White text for all content */
+    position: relative;
+    z-index: 2;
+}
+
+/* Ensure all text within card-body is white */
+.card-body h4,
+.card-body p,
+.card-body a {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+}
+
+/* Semi-transparent overlay for better text readability */
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.01); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+/* Ensure card content is above the overlay */
+.card-body > * {
+    position: relative;
+    z-index: 2;
+}
+</style>
+
+<style>
+.card-body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff; /* White text for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+}
+
+/* Optional: Add a semi-transparent overlay to improve text readability */
+.card-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1;
+}
+
+/* Ensure card content is above the overlay */
+.card-body > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Adjust link color for better visibility */
+.card-body a {
+    color: #00ccff; /* Bright color for links */
+    font-weight: bold;
+}
+</style>
 
     <!-- Attorneys Section -->
     <section class="py-5">
