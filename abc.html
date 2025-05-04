@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-10">
+                <!-- Left Content -->
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                        Frequently Asked <span class="text-indigo-600">Questions</span>
+                    </h2>
+
+                    <div class="mb-6 relative">
+                        <input type="text" placeholder="Search question here" class="w-full py-3 px-4 pr-12 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <span class="absolute right-4 top-3 text-gray-400">
+                            🔍
+                        </span>
+                    </div>
+
+                    <!-- FAQ List -->
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition">
+                            <h4 class="font-semibold text-gray-800">About our profile?</h4>
+                            <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition">
+                            <h4 class="font-semibold text-gray-800">News and topics?</h4>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition">
+                            <h4 class="font-semibold text-gray-800">How to use?</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="lg:w-1/2 flex justify-center">
+                    <img src="https://cdn.pixabay.com/photo/2021/01/26/14/29/faq-5952095_960_720.png" alt="FAQ" class="max-w-md w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
