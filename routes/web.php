@@ -50,4 +50,10 @@ Route::get('/chat', function () {
     return view('chat');
 });
 
+use App\Http\Controllers\LawController;
+
+Route::get('/laws', [LawController::class, 'index']);
+Route::post('/laws-by-category', [LawController::class, 'getLawsByCategory']);
+
+
 require __DIR__.'/auth.php';
